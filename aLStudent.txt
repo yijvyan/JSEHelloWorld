@@ -1,0 +1,4 @@
+cmcc001,Alice,28,Peking
+cmcc002,Bob,29,Shanghai
+cmcc003,Candy,27,Guangzhou
+cmcc004,Elisa,30,Shenzhen

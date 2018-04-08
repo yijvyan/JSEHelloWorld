@@ -1,0 +1,1 @@
+1.write(String str)写一个字符串数据；2.wirte(String str,int index,int len)写一个字符串的一部分数据aa；4.字符数组数据；输出时是字符串；字符数组数据

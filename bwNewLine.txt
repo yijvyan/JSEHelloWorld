@@ -1,0 +1,10 @@
+缓冲流的newLine()提供换行功能  0
+缓冲流的newLine()提供换行功能  1
+缓冲流的newLine()提供换行功能  2
+缓冲流的newLine()提供换行功能  3
+缓冲流的newLine()提供换行功能  4
+缓冲流的newLine()提供换行功能  5
+缓冲流的newLine()提供换行功能  6
+缓冲流的newLine()提供换行功能  7
+缓冲流的newLine()提供换行功能  8
+缓冲流的newLine()提供换行功能  9

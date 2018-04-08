@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema' 
+					  targetNamespace='http://www.yijvyan.com'
+				>
+					 <!-- 标准的名称空间 xmlns:xs='http://www.w3.org/2001/XMLSchema'-->
+						<!-- 将该schema文档绑定到http://www.yijvyan.com名称空间 -->
+	<xs:element name='书架' >
+		<xs:complexType>
+			<xs:sequence maxOccurs='unbounded' >
+				<xs:element name='书' >
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name='书名' type='xs:string' />
+							<xs:element name='作者' type='xs:string' />
+							<xs:element name='售价' type='xs:string' />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://www.example.org/book" 
+		xmlns:tns="http://www.example.org/book" elementFormDefault="qualified">
+</schema> -->

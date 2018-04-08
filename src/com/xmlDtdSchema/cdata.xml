@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	如果有一个包含标签体的标签，
+	他的标签体是一个普通文本，不是子标签，
+	而普通文本中包含了一个标签，那这样可以吗？ 
+ -->
+ <students>
+ 
+ 	<student>
+ 		<name>Bob</name>
+ 		<url>
+ 			<yijvyan>www.yijvyan.com</yijvyan>
+ 		</url>
+ 	</student>
+ 	
+ 	<student>
+ 		<name>Bob</name>
+ 		<url>
+ 			<![CDATA[
+ 				<yijvyan>www.yijvyan.com</yijvyan>
+ 			]]>
+ 		</url>
+ 	</student>
+ 	
+ 	<student>
+ 		<name>Bob</name>
+ 		<url>
+ 				&lt;yijvyan&gt;www.yijvyan.com&lt;/yijvyan&gt;
+ 		</url>
+ 	</student>
+ 	
+ </students>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yijvyanOver:书架 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:yijvyanOver="http://www.yijvyan.com" 
+	xsi:schemaLocation="http://www.yijvyan.com book.xsd "
+>
+  <书>
+    <书名>书名</书名>
+    <作者>作者</作者>
+    <售价>售价</售价>
+  </书>
+</yijvyanOver:书架>

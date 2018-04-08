@@ -1,0 +1,37 @@
+ //K key：要添加的新元素；
+ 
+ public V put(K key, V value) {
+ 
+        //1.根据新添加元素的hashCode()返回值计算出hash值；
+        
+        int hash = hash(key);
+        int i = indexFor(hash, table.length);
+        
+        //2.获取当前集合中的每一个元素；
+        
+        for (Entry<K,V> e = table[i]; e != null; e = e.next) {
+            Object k;
+            
+            //2.1.和新添加的元素进行比较，判断是否重复，如果重复则返回；
+            
+           		//2.1.1.先比较hash值，hash值不一样if语句结束；
+            
+            	//2.1.2.如果hash值一样，则比较地址在或者使用equals方法进行比较；
+            
+            	//2.1.3.比较结果如果为true，则重复不在添加；
+            
+            if (e.hash == hash && ((k = e.key) == key || key.equals(k))) {
+                V oldValue = e.value;
+                e.value = value;
+                e.recordAccess(this);
+                return oldValue;
+            }
+        }
+
+        modCount++;
+        
+        //3.直接添加元素；
+        
+        addEntry(hash, key, value, i);
+        return null;
+    }

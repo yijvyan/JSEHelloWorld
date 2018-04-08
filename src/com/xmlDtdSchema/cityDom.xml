@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<State Code="37" Name="河南" description="郑州" GDP="99999亿"> 
+  <City> 
+    <Name>郑州</Name>  
+    <Region>高薪区</Region> 
+  </City>  
+  <City>三门峡</City>  
+  <City>洛阳</City>  
+  <City>安阳</City>  
+  <City>南阳</City> 
+</State>
